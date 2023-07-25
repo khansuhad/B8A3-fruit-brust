@@ -9,6 +9,26 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- font awasome -->
     <script src="https://kit.fontawesome.com/cc655c6a9d.js" crossorigin="anonymous"></script>
+    <!-- custom link -->
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                color1:'#121212',
+                color2:'rgba(18, 18, 18, 0.60)',
+
+              }
+            }
+          }
+        }
+      </script>   
+    <!-- style -->
+
+    <style>
+
+    </style>
 
 </head>
 <body>
@@ -16,7 +36,7 @@
     <header>
         <!-- nav section -->
         
-        <nav class="  mx-60 my-13 border-red-600">
+        <nav class=" my-12 mx-60  border-red-600 hidden">
            
             <div class="navbar bg-[#F85559] text-[#FFFFFF]    items-center rounded-full ">
                 <div class="navbar-start hidden lg:flex">
@@ -40,6 +60,118 @@
                 </div>
               </div>
         </nav>
+         <!-- banner section -->
+         <section class=" header-banner-section hidden mx-5 md:mx-30 lg:mx-60 ">
+            <div class="carousel w-full  ">
+                <div id="slide1" class="carousel-item relative w-full  ">
+                  <img src="./images/banner1.png" class="w-full " />
+                  <div class="absolute inset-0 bg-gradient-to-t from-transparent to-black"></div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-30">
+                    <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a> 
+                    <a href="#slide2" class="btn btn-circle bg-black text-white border-none">❯</a>
+                  </div>
+                  <div class="absolute flex justify-center items-center text-center h-full w-full z-10">
+                    <div class="text-white">
+                      <h1 class="text-4xl md:text-5xl lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                      <p class="text-xs md:text-base lg:text-xl font-medium mt-1 mb-2 md:mt-5 md:mb-7">We supply highly quality organic products</p>
+                      <button class="btn text-xs md:text-lg font-extrabold bg-[#F85559] text-white border-0 hover:bg-white hover:text-[black]">Shop Now</button>
+                    </div>
+                  </div>
+                </div> 
+                <div id="slide2" class="carousel-item relative w-full">
+                  <img src="./images/banner2.png" class="w-full" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-transparent to-black"></div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
+                    <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                    <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❯</a>
+                  </div>
+                  <div class="absolute flex justify-center items-center text-center h-full w-full z-10 ">
+                    <div class="text-white">
+                      <h1 class="text-2xl md:text-5xl lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                      <p class="text-xs md:text-base lg:text-xl font-medium mt-1 mb-2 md:mt-5 md:mb-7">We supply highly quality organic products</p>
+                      <button class="btn text-xs md:text-lg font-extrabold bg-[#F85559] text-white border-0 hover:bg-white hover:text-[black]">Shop Now</button>
+                    </div>
+                  </div>
+                </div> 
+                <div id="slide3" class="carousel-item relative w-full">
+                  <img src="./images/banner3.png" class="w-full" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-transparent to-black"></div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
+                    <a href="#slide2" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                    <a href="#slide4" class="btn btn-circle bg-black text-white border-0">❯</a>
+                  </div>
+                  <div class="absolute flex justify-center items-center text-center h-full w-full z-10 ">
+                    <div class="text-white">
+                      <h1 class="text-2xl md:text-5xl lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                      <p class="text-xs md:text-base lg:text-xl font-medium mt-1 mb-2 md:mt-5 md:mb-7">We supply highly quality organic products</p>
+                      <button class="btn text-xs md:text-lg font-extrabold bg-[#F85559] text-white border-0 hover:bg-white hover:text-[black]">Shop Now</button>
+                    </div>
+                  </div>
+                </div> 
+                <div id="slide4" class="carousel-item relative w-full">
+                  <img src="./images/banner4.png" class="w-full" />
+                  <div class="absolute inset-0 bg-gradient-to-t from-transparent to-black"></div>
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 z-20">
+                    <a href="#slide3" class="btn btn-circle bg-black text-white border-0">❮</a> 
+                    <a href="#slide1" class="btn btn-circle bg-black text-white border-0">❯</a>
+                  </div>
+                  <div class="absolute flex justify-center items-center text-center h-full w-full z-10 ">
+                    <div class="text-white">
+                      <h1 class="text-2xl md:text-5xl lg:text-7xl font-extrabold">Exotic tastes at your <br> doorstep</h1>
+                      <p class="text-xs md:text-base lg:text-xl font-medium mt-1 mb-2 md:mt-5 md:mb-7">We supply highly quality organic products</p>
+                      <button class="btn text-xs md:text-lg font-extrabold bg-[#F85559] text-white border-0 hover:bg-white hover:text-[black]">Shop Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+  
     </header>
+    <!-- main section -->
+    <main>
+        <section class="deal-of-the-day ">
+            <div class="deal-of-the-day-content gap-3 text-center md:flex lg:flex justify-between">
+                <div class="dotdc-title  w-full pl-4 md: lg: text-left m-3 ">
+                    <h1 class="    text-color1 text-3xl font-extrabold md:text-xl px-0lg:text-7xl mb-2">Deal of the day</h1>
+                    <p class="text-color2 md: font-base lg:text-xl">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+
+                </div>
+                <div class="dotdc-calmdown  text-center pl-4   lg: text-3xl pr-28  m-3">
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:15;"></span>
+                          </span>
+                          days
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:10;"></span>
+                          </span>
+                          hours
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:24;"></span>
+                          </span>
+                          min
+                        </div> 
+                        <div class="flex flex-col">
+                          <span class="countdown font-mono text-5xl">
+                            <span style="--value:31;"></span>
+                          </span>
+                          sec
+                        </div>
+                      </div>
+                </div>
+
+            </div>
+            <div class="deal-of-the-day-card">
+
+            </div>
+        </section>
+    </main>
+       
+     
 </body>
 </html>
